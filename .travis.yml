@@ -16,5 +16,5 @@ addons:
     token: $SONAR_TOKEN
       
 script:
-  - mvn compile sonar:sonar -Dsonar.projectKey=qses_WebGoat
+  - mvn -q compile sonar:sonar -Dsonar.projectKey=qses_WebGoat
   
